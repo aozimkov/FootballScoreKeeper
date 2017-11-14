@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     String goal = "Goal";
 
     //Display delaying
-    int pause = 2500;
+    int pause = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -227,11 +227,10 @@ public class MainActivity extends AppCompatActivity {
         TextView scoresDisplay = findViewById(R.id.scoresdisplay);
         Resources res = getResources();
         scoresDisplay.setText(String.format(res.getString(R.string.scores), scoreTeamA, scoreTeamB));
+        scoresDisplay.setTextColor(Color.WHITE);
         TextView scoresDisplaySecond = findViewById(R.id.display_second_string);
         scoresDisplaySecond.setText(getResources().getText(R.string.scoretext));
         scoresDisplaySecond.setTextColor(Color.WHITE);
-        TextView scoresDisplayMain = findViewById(R.id.scoresdisplay);
-        scoresDisplayMain.setTextColor(Color.WHITE);
     }
 
     private void setDisplayPause(){
