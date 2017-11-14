@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:id="@+id/maindisplay"
+    android:gravity="center">
+
+
+    <include layout="@layout/scores"/>
+
+    <TextView
+        android:id="@+id/display_second_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scoretext"
+        android:textColor="@android:color/white"
+        android:gravity="center_horizontal"
+        android:textSize="34sp"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Football Score Keeper</string>
+    <!-- scores counter -->
+    <string name="scores">%1$d:%2$d</string>
+    <string name="scoretext">Team A : Team B</string>
+    <!-- -->
+    <string name="teama">Team A</string>
+    <string name="teamb">Team B</string>
+    <!-- -->
+    <string name="reda">%1$d\nRed card</string>
+    <string name="yellowa">%1$d\nYellow card</string>
+    <string name="goala">%1$d\nGOAL</string>
+    <string name="redb">%1$d\nRed card</string>
+    <string name="yellowb">%1$d\nYellow card</string>
+    <string name="goalb">%1$d\nGOAL</string>
+    <string name="reset">Reset</string>
+</resources>

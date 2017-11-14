@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/reda"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/reda"
+        android:textSize="20sp"
+        android:background="#F44336"
+        android:onClick="redAClick"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/yellowa"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/yellowa"
+        android:textSize="20sp"
+        android:background="#FFEB3B"
+        android:onClick="yellowAClick"/>
+
+    <Button
+        android:id="@+id/goala"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/goala"
+        android:textSize="20sp"
+        android:background="#8BC34A"
+        android:onClick="goalAClick"/>
+
+</LinearLayout>
