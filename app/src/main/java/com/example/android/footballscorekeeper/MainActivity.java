@@ -80,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
      * Main display Colors set
      */
 
+    private void displayTextGray() {
+        scoresDisplaySecond.setTextColor(Color.DKGRAY);
+        scoresDisplay.setTextColor(Color.DKGRAY);
+    }
+
     public void displayDefault(){
         mainDisplay.setBackgroundColor(Color.DKGRAY);
     }
@@ -92,16 +97,13 @@ public class MainActivity extends AppCompatActivity {
     public void displayYellow(){
         mainDisplay.setBackgroundColor(Color.YELLOW);
         scoresDisplaySecond.setText(yellow.toUpperCase());
-        scoresDisplaySecond.setTextColor(Color.DKGRAY);
-        scoresDisplay.setTextColor(Color.DKGRAY);
-
+        displayTextGray();
     }
 
     public void displayGoal(){
         mainDisplay.setBackgroundColor(Color.GREEN);
         scoresDisplaySecond.setText(goal.toUpperCase());
-        scoresDisplaySecond.setTextColor(Color.DKGRAY);
-        scoresDisplay.setTextColor(Color.DKGRAY);
+        displayTextGray();
     }
 
     public void displayTeamA(){
